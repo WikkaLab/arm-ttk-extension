@@ -4,7 +4,7 @@
 	"version": "1.1.$buildnumber$",
 	"name": "Run ARM TTK Tests - Devlopment",
 	"description": "Run Azure Resource Manager Template Test Kit tests as part of your build or release process",
-	"publisher": "DavidOlivaParedes",
+	"publisher": "David-Oliva",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/WikkaLab/arm-ttk-extension"

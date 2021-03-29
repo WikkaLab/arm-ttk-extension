@@ -56,13 +56,13 @@ jobs:
       with:
         # Artifact name
         name: extension
-        path: DavidOlivaParedes.ARMTTKExtension-1.1.${{ github.run_number }}.vsix
+        path: David-Oliva.ARMTTKExtension-1.1.${{ github.run_number }}.vsix
         
     - name: GH Release
       uses: softprops/action-gh-release@master
       with:
         name: ARM TTK Extension v1.0.${{ github.run_number }}
-        files: DavidOlivaParedes.ARMTTKExtension-1.1.${{ github.run_number }}.vsix
+        files: David-Oliva.ARMTTKExtension-1.1.${{ github.run_number }}.vsix
         tag_name: v1.1.${{ github.run_number }}
       env:
         GITHUB_TOKEN: ${{secrets.deploy_key}}
@@ -76,5 +76,5 @@ jobs:
         name: extension
     - name: publish-extension
       run: |
-        npx tfx-cli extension publish --vsix extension/DavidOlivaParedes.ARMTTKExtension-1.1.${{ github.run_number }}.vsix --token ${{secrets.marketplace_pat}}
+        npx tfx-cli extension publish --vsix extension/David-Oliva.ARMTTKExtension-1.1.${{ github.run_number }}.vsix --token ${{secrets.marketplace_pat}}
         
