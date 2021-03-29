@@ -4,7 +4,7 @@
 	"version": "1.1.$buildnumber$",
 	"name": "Run ARM TTK Tests",
 	"description": "Run Azure Resource Manager Template Test Kit tests as part of your build or release process",
-	"publisher": "Sam-Cogan",
+	"publisher": "DavidOlivaParedes",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/sam-cogan/arm-ttk-extension"
@@ -35,7 +35,7 @@
 		"Public"
 	],
 
-	 "categories": [
+	"categories": [
 		"Azure Pipelines"
 	],
 	"contributions": [
