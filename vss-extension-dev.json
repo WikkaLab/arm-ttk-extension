@@ -7,7 +7,7 @@
 	"publisher": "DavidOlivaParedes",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/sam-cogan/arm-ttk-extension"
+		"url": "https://github.com/WikkaLab/arm-ttk-extension"
 	},
 	"content": {
 		"details": {
@@ -50,10 +50,10 @@
 	],
 	"links": {
 		"getstarted": {
-			"uri": "https://github.com/sam-cogan/arm-ttk-extension/blob/master/README.md"
+			"uri": "https://github.com/WikkaLab/arm-ttk-extension/blob/master/README.md"
 		},
 		"support": {
-			"uri": "https://github.com/sam-cogan/arm-ttk-extension/issues"
+			"uri": "https://github.com/WikkaLab/arm-ttk-extension/issues"
 		}
 	},
 	"files": [

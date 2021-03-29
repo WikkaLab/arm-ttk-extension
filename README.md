@@ -1,6 +1,6 @@
 # arm-ttk-extension
 
-![CI](https://github.com/sam-cogan/arm-ttk-extension/workflows/CI/badge.svg)
+![CI](https://github.com/WikkaLab/arm-ttk-extension/workflows/CI/badge.svg)
 
 An Azure DevOps Extension for running Azure Resource Manager Template Tool Kit tests as part of your build or release pipeline.
 
@@ -62,7 +62,7 @@ If any of your tests fail, the RunARMTTKTests task will also fail. To ensure tha
 
 Once you do this, Azure DevOps will show the results of your tests in the build.
 
-![Test Results](https://github.com/sam-cogan/arm-ttk-extension/blob/master/images/TestResults.png?raw=true)
+![Test Results](https://github.com/WikkaLab/arm-ttk-extension/blob/master/images/TestResults.png?raw=true)
 
 
 ## License
